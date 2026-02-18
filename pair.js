@@ -65,7 +65,9 @@ router.get('/', async (req, res) => {
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❶ || Creator = INOCENT MD_👨🏻‍💻
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaWWZa1G3R3c4TPADo0M
+❶ || SUPPORT GC = https://chat.whatsapp.com/DX19f0xUiCeGbt4a4PtJnm?mode=gi_t
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vb6vValEwEjvc6wde41P
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❸ || Owner = https://wa.me/+919749366957
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
