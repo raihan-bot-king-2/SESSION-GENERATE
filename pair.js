@@ -54,7 +54,7 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: "" + b64data });
+               let session = await Pair_Code_By_INOCENT_MD.sendMessage(Pair_Code_By_INOCENT_MD.user.id, { text: "" + b64data });
 
                let INOCENT_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
@@ -63,7 +63,7 @@ router.get('/', async (req, res) => {
 ┃CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = INOCENT MD_👨🏻‍💻
+❶ || Creator = 𝕴𝖓𝖔𝖈𝖊𝖓𝖙 𝕸𝖉☠︎︎✔_👨🏻‍💻
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❶ || SUPPORT GC = https://chat.whatsapp.com/DX19f0xUiCeGbt4a4PtJnm?mode=gi_t
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -78,7 +78,7 @@ router.get('/', async (req, res) => {
 ❻ || GITHUB REPO = https://github.com/raihan-bot-king-2/INOCENT-MD
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ᴄʀᴇᴀᴛᴇᴅ ʙʏ 𝕴𝖓𝖔𝖈𝖊𝖓𝖙 𝕸𝖉☠︎︎✔`
- await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
+ await Pair_Code_By_INOCENT_MD.sendMessage(Pair_Code_By_INOCENT_MD.user.id,{text:INOCENT_MD_TEXT},{quoted:session})
  
 
         await delay(100);
