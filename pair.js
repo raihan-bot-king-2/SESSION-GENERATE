@@ -20,7 +20,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function SIGMA_MD_PAIR_CODE() {
+        async function INOCENT_MD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -56,24 +56,26 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: "" + b64data });
 
-               let SIGMA_MD_TEXT = `
+               let INOCENT_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃MASTER MD SESSION IS 
+┃𝕴𝖓𝖔𝖈𝖊𝖓𝖙 𝕸𝖉☠︎︎✔ SESSION IS 
 ┃SUCCESSFULLY
 ┃CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = Sahan / MASTER MIND_👨🏻‍💻
+❶ || Creator = INOCENT MD_👨🏻‍💻
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaWWZa1G3R3c4TPADo0M
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❸ || Owner = https://wa.me/+94720797915
+❸ || Owner = https://wa.me/+919749366957
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❺ || INSTAGRAM = https://www.instagram.com/sahanmaduwantha2006?igsh=YzljYTk1ODg3Zg==
+❺ || INSTAGRAM = https://www.instagram.com/r_a_i_h_a_n__k_i_n_g__2?igsh=cjdybDlrZ3Y5eHlk==
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❻ || FaceBook = https://www.facebook.com/profile.php?id=100089180711131
+❻ || FaceBook = https://www.facebook.com/share/16peCLwomf/
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ꜱᴀʜᴀɴ ᴏꜰᴄ`
+❻ || GITHUB REPO = https://github.com/raihan-bot-king-2/INOCENT-MD
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ᴄʀᴇᴀᴛᴇᴅ ʙʏ 𝕴𝖓𝖔𝖈𝖊𝖓𝖙 𝕸𝖉☠︎︎✔`
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
@@ -82,7 +84,7 @@ router.get('/', async (req, res) => {
         return await removeFile('./temp/'+id);
             } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10000);
-                    SIGMA_MD_PAIR_CODE();
+                    INOCENT_MD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -93,6 +95,6 @@ router.get('/', async (req, res) => {
          }
         }
     }
-    return await SIGMA_MD_PAIR_CODE()
+    return await INOCENT_MD_PAIR_CODE()
 });
 module.exports = router
